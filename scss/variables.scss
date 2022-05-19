@@ -14,6 +14,7 @@ $color-map:(
     secondary: #abb1b8,  //color secudario de la marca #abb1b8
     third:white,
     fourth:#00422592,
+    fifth:black,
 );
 
 @each $posicion-color, $color in $color-map {

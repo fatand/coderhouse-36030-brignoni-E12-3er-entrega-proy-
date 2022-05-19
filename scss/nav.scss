@@ -58,6 +58,10 @@ header{
     }
 }
 
+.navbar-button{
+    @include size(35px,35px,0px,0)
+}
+
 .header-nav{
     padding: 5px;
     display:flex;

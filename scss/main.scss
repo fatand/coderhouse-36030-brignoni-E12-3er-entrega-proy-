@@ -109,6 +109,12 @@ h4{
     height: 50px;
 }
 
+// .bg-pattern-frase{
+//     background-color: #004225;
+//     opacity: 1;
+//     background: linear-gradient(135deg, #abb1b855 25%, transparent 25%) -12px 0/ 24px 24px, linear-gradient(225deg, #abb1b8 25%, transparent 25%) -12px 0/ 24px 24px, linear-gradient(315deg, #abb1b855 25%, transparent 25%) 0px 0/ 24px 24px, linear-gradient(45deg, #abb1b8 25%, #004225 25%) 0px 0/ 24px 24px;
+// }
+
 p{
     padding:10px;
 }
@@ -163,7 +169,7 @@ p{
     border-radius: 20px;
 }
 
-//ESTILO PARTICULAR A CONTACTO
+//ESTILO PARTICULAR A contact.html
 
 .main-contacto{
     display: flex;
@@ -573,14 +579,22 @@ td, th {
     
     /* AGREGO MEDIA QUERIES AL MAIN DEL CONTACT.HTML*/
     .main-contacto{
+        display: flex;
         flex-direction: row;
+        align-items: flex-start;
+        // justify-content: flex-start;
         margin: 0 0 150px 0;
     }
     
     .formulario{
         margin: 10px 10px 10px 10px;
     }
-        
+    
+    .form-border{
+        border: solid 2px $color-primary;
+        border-radius: 5px;
+    }
+
     .div-contact{
         margin: 10px 10px 10px 10px;
     }

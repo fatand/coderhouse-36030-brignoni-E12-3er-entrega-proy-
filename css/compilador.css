@@ -22,6 +22,9 @@ section {
 .color-fourth {
   color: #00422592; }
 
+.color-fifth {
+  color: black; }
+
 .bg-color-primary {
   background-color: #004225; }
 
@@ -94,6 +97,12 @@ header {
   transition: all 0.3s ease-in-out; }
   .navbar-brand-style:hover {
     transform: scale(1.1); }
+
+.navbar-button {
+  height: 35px;
+  width: 35px;
+  padding: 0px;
+  margin: 0; }
 
 .header-nav {
   padding: 5px;
@@ -546,10 +555,15 @@ th {
     border: solid 3px white; }
   /* AGREGO MEDIA QUERIES AL MAIN DEL CONTACT.HTML*/
   .main-contacto {
+    display: flex;
     flex-direction: row;
+    align-items: flex-start;
     margin: 0 0 150px 0; }
   .formulario {
     margin: 10px 10px 10px 10px; }
+  .form-border {
+    border: solid 2px #004225;
+    border-radius: 5px; }
   .div-contact {
     margin: 10px 10px 10px 10px; }
   /* AGREGO MEDIA QUERIES AL MAIN DEL MEN.HTML Y WOMEN.HTML*/
