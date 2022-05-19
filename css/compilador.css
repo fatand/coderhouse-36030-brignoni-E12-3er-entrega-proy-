@@ -561,9 +561,6 @@ th {
     margin: 0 0 150px 0; }
   .formulario {
     margin: 10px 10px 10px 10px; }
-  .form-border {
-    border: solid 2px #004225;
-    border-radius: 5px; }
   .div-contact {
     margin: 10px 10px 10px 10px; }
   /* AGREGO MEDIA QUERIES AL MAIN DEL MEN.HTML Y WOMEN.HTML*/
